@@ -82,7 +82,7 @@ input:focus {
 .bio {
   margin: 15px 0px;
 }
-Textarea{
+textarea{
   background-color: #f3f3f3;
   border-radius: 15px;
   display: flex;
@@ -117,22 +117,22 @@ button:hover {
           <h2>สมัครสมาชิกผู้ใช้งาน</h2>
         </div>
         <div class="form-group">
-            <input type="text" placeholder="ชื่อผู้ใช้">
+            <input type="text" placeholder="ชื่อผู้ใช้" id="Username">
           <div class="bio">
-            <input type="text" placeholder=" ชื่อ">
-            <input type="text" placeholder="นามสกุล">
+            <input type="text" placeholder=" ชื่อ"id="Firstname">
+            <input type="text" placeholder="นามสกุล"id="lastname">
            </div>  
             <div class="container">
-              <input name = "Sex" type = "radio" id="Sex1" checked="checked">
-              <label for="Sex1">ชาย</label>
+              <input name = "Sex" type = "radio" id="Sex" checked="checked">
+              <label for="Sex">ชาย</label>
               <input name = "Sex" type = "radio" id="Sex2">
               <label for="Sex2">หญิง</label>
             </div>
           <div class="form-group">
-            <input type="email" id="email" placeholder="อีเมล์"><br>
+            <input type="email" id="Email" placeholder="อีเมล์"><br>
             <input type="password" id="Password" placeholder="รหัสผ่าน"><br>
             <input type="password" id="Password2" placeholder="ยืนยันรหัสผ่าน"><br>
-            <textarea type="text" id="Textarea" placeholder=" ที่อยู่"></textarea><br>
+            <textarea name="textarea"type="text" id="Address" placeholder=" ที่อยู่"></textarea><br>
             <input type="text" id="Zipcode" placeholder=" รหัสไปรษณีย์"><br>
             <input type="text" id="Tel" placeholder=" เบอร์"><br>
           </div>
@@ -142,7 +142,6 @@ button:hover {
                 สมัครสมาชิก
              <i class="fas fa-arrow-right"></i>
             </button></a>
-            
       </form> 
 </body>
 </html>
