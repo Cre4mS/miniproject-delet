@@ -111,8 +111,8 @@ button:hover {
           <div class="bio">
             <input type="password" id="password" name="password" placeholder="รหัสผ่าน">
           </div>
-        <a href="index.html"><button type="button" class="btn btn-danger">เข้าสู่ระบบ</button></a><br>
-        <a href="registeruser.php" class="button">สมัครสมาชิก</a>
+          <input type="submit" class="btn btn-success" value="เข้าสู่ระบบ"><br>
+          <a class="btn btn-success" href='registeruser.php'>สมัครสมาชิก</a>
       </form>
 </body>
 </html>

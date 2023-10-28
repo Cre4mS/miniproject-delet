@@ -112,7 +112,7 @@ button:hover {
 </style>
 </head>
 <body>
-    <form>
+    <form id="form1" name="form1" method="post" action="reg-success.php">
         <div class="head">
           <h2>สมัครสมาชิกผู้ใช้งาน</h2>
         </div>
@@ -136,12 +136,8 @@ button:hover {
             <input type="text" id="Zipcode" placeholder=" รหัสไปรษณีย์"><br>
             <input type="text" id="Tel" placeholder=" เบอร์"><br>
           </div>
+          <input type="submit" class="btn btn-success" value="สมัครสมาชิก">
         </div>
-            <a href="loginuser.php"><button type="button" class="btn btn-danger">
-                <div></div>
-                สมัครสมาชิก
-             <i class="fas fa-arrow-right"></i>
-            </button></a>
       </form> 
 </body>
 </html>
