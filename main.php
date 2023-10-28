@@ -60,8 +60,8 @@
             <h2>กรุณาเลือกผู้ใช้งาน</h2>
         </div>
          <div class="images">
-            <a href="loginuser.html"><img src="assets/images/ผู้ใช้งาน.png" alt=""></a>
-            <a href="loginadmin.html"><img src="assets/images/ผู้ดูแลระบบ.png" alt=""></a>
+            <a href="loginuser.php"><img src="assets/images/ผู้ใช้งาน.png" alt=""></a>
+            <a href="loginadmin.php"><img src="assets/images/ผู้ดูแลระบบ.png" alt=""></a>
         </div><br>
         <div class="bio">
             <p1>ผู้ใช้งาน</p1>

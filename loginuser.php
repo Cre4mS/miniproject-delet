@@ -106,12 +106,12 @@ button:hover {
           <img src="assets/images/ผู้ใช้งาน.png" alt="">
         </div>
         <div class="form-group">
-          <input type="text" id="username"  placeholder="ชื่อผู้ใช้">
+          <input name="username" type="text" id="username"  placeholder="ชื่อผู้ใช้">
           <div class="bio">
             <input type="password" id="password" name="password" placeholder="รหัสผ่าน">
           </div>
         <a href="index.html"><button type="button" class="btn btn-danger">เข้าสู่ระบบ</button></a><br>
-        <a href="registeruser.html" class="button">สมัครสมาชิก</a>
+        <a href="registeruser.php" class="button">สมัครสมาชิก</a>
       </form>
 </body>
 </html>
