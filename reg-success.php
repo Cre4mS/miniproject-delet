@@ -38,14 +38,19 @@ if(isset($_POST['Username'])&& isset($_POST['Firstname'])&& isset($_POST['Lastna
          $call_back_query_check_Email = mysqli_query($connect, $query_check_Email);
          if(mysqli_num_rows($call_back_query_check_Email) > 0){
             die(header('Location: registeruser.php')); //มีผู้ใช้อีเมลนี้แล้ว
-         }elseif($call_back_create_account){
+         }else{
+             $query_create_account = "INSERT INTO tb_regis VALUES ('', '$Username', '$Firstname', '$Lastname', '$Sex', '$Password', '$Email', '$Address', '$Zipcode', '$Tel', '')";
+             $call_back_create_account = mysqli_query($conn, $query_create_account);
+             if($call_back_create_account){
                  die(header('Location: loginuser.php')); //สร้างบัญชีสำเร็จ
-             }elseif{
+             }else{
                 die(header('Location: registeruser.php')); //สร้างบัญชีล้มเหลว
              }
          }
+     }
+
 }else{
-    die(header('Location: registeruser.php')); //ไม่มีข้อมูล
+    die(header('Location: form-register.php')); //ไม่มีข้อมูล
 }
 
 ?>
