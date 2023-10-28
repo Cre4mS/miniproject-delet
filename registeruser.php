@@ -94,17 +94,19 @@ button:hover {
             <input type="text" placeholder="นามสกุล">
           </div>
             <input type="email" id="email" placeholder="อีเมล์"><br>
-            <input type="password" id="password" placeholder="รหัสผ่าน"><br>
+            <input type="password" id="password1" placeholder="รหัสผ่าน"><br>
+            <input type="password" id="password2" placeholder="ยืนยันรหัสผ่าน"><br>
             <input type="text" id="" placeholder="เพศ"><br>
             <input type="text" id="" placeholder=" ที่อยู่"><br>
             <input type="text" id="" placeholder=" รหัสไปรษณีย์"><br>
             <input type="text" id="" placeholder=" เบอร์"><br>
         </div>
-            <a href="loginuser.html" class="button"><button type="button" class="btn btn-danger">
+            <button>
                 <div></div>
                 สมัครสมาชิก
              <i class="fas fa-arrow-right"></i>
             </button></a>
+            <a href="loginuser.php" class="button">
       </form> 
 </body>
 </html>
