@@ -82,7 +82,7 @@ input:focus {
 .bio {
   margin: 15px 0px;
 }
-textarea{
+Textarea{
   background-color: #f3f3f3;
   border-radius: 15px;
   display: flex;
@@ -123,18 +123,18 @@ button:hover {
             <input type="text" placeholder="นามสกุล">
            </div>  
             <div class="container">
-              <input name = "sex" type = "radio" id="sexf" checked="checked">
-              <label for="sexf">ชาย</label>
-              <input name = "sex" type = "radio" id="sexm">
-              <label for="sexm">หญิง</label>
+              <input name = "Sex" type = "radio" id="Sex1" checked="checked">
+              <label for="Sex1">ชาย</label>
+              <input name = "Sex" type = "radio" id="Sex2">
+              <label for="Sex2">หญิง</label>
             </div>
           <div class="form-group">
             <input type="email" id="email" placeholder="อีเมล์"><br>
-            <input type="password" id="password" placeholder="รหัสผ่าน"><br>
-            <input type="password" id="password2" placeholder="ยืนยันรหัสผ่าน"><br>
-            <textarea type="text" id="textarea" placeholder=" ที่อยู่"></textarea><br>
-            <input type="text" id="" placeholder=" รหัสไปรษณีย์"><br>
-            <input type="text" id="" placeholder=" เบอร์"><br>
+            <input type="password" id="Password" placeholder="รหัสผ่าน"><br>
+            <input type="password" id="Password2" placeholder="ยืนยันรหัสผ่าน"><br>
+            <textarea type="text" id="Textarea" placeholder=" ที่อยู่"></textarea><br>
+            <input type="text" id="Zipcode" placeholder=" รหัสไปรษณีย์"><br>
+            <input type="text" id="Tel" placeholder=" เบอร์"><br>
           </div>
         </div>
             <a href="loginuser.php"><button type="button" class="btn btn-danger">
