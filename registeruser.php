@@ -28,6 +28,26 @@ body {
   font-weight: 500;
   font-size: 250%;
 }
+.container{
+  margin: 20px;
+}
+input[type="radio"]{
+  display:none;
+}
+label{
+  position: relative;
+  color: #bfbab6;
+  font-family: "Roboto", sans-serif;
+  border: 2px solid #f3f3f3;
+  border-radius: 5px;
+  padding: 10px 30px;
+  align-items: center;
+  
+}
+input[type="radio"]:checked + label{
+  background-color:#f3f3f3;
+  color: #bfbab6;
+}
 form {
   background-color: #fff;
 /*   display: none; */
@@ -60,7 +80,16 @@ input:focus {
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }
 .bio {
-  margin: 15px 0;
+  margin: 15px 0px;
+}
+textarea{
+  background-color: #f3f3f3;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px;
 }
 button {
   display: flex;
@@ -90,22 +119,30 @@ button:hover {
         <div class="form-group">
             <input type="text" placeholder="ชื่อผู้ใช้">
           <div class="bio">
-            <input type="text" placeholder="ชื่อ">
+            <input type="text" placeholder=" ชื่อ">
             <input type="text" placeholder="นามสกุล">
-          </div>
+           </div>  
+            <div class="container">
+              <input name = "sex" type = "radio" id="sexf" checked="checked">
+              <label for="sexf">ชาย</label>
+              <input name = "sex" type = "radio" id="sexm">
+              <label for="sexm">หญิง</label>
+            </div>
+          <div class="form-group">
             <input type="email" id="email" placeholder="อีเมล์"><br>
-            <input type="password" id="password1" placeholder="รหัสผ่าน"><br>
+            <input type="password" id="password" placeholder="รหัสผ่าน"><br>
             <input type="password" id="password2" placeholder="ยืนยันรหัสผ่าน"><br>
-            <input type="text" id="" placeholder="เพศ"><br>
-            <input type="text" id="" placeholder=" ที่อยู่"><br>
+            <textarea type="text" id="textarea" placeholder=" ที่อยู่"></textarea><br>
             <input type="text" id="" placeholder=" รหัสไปรษณีย์"><br>
             <input type="text" id="" placeholder=" เบอร์"><br>
           </div>
+        </div>
             <a href="loginuser.php"><button type="button" class="btn btn-danger">
                 <div></div>
                 สมัครสมาชิก
              <i class="fas fa-arrow-right"></i>
             </button></a>
+            
       </form> 
 </body>
 </html>
