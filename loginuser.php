@@ -1,3 +1,11 @@
+<?php
+require 'conn.php';
+$sql = "SELECT * FROM tb_regis";
+$result = $conn->query($sql);
+if(!$result){
+die("Error : ". $conn->$conn_error);
+}
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
