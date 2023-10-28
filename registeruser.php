@@ -100,14 +100,12 @@ button:hover {
             <input type="text" id="" placeholder=" ที่อยู่"><br>
             <input type="text" id="" placeholder=" รหัสไปรษณีย์"><br>
             <input type="text" id="" placeholder=" เบอร์"><br>
-        
-            <button>
+          </div>
+            <a href="loginuser.php"><button type="button" class="btn btn-danger">
                 <div></div>
                 สมัครสมาชิก
              <i class="fas fa-arrow-right"></i>
-            </button>
-            <a href="loginuser.php" class="button"></a>
-        </div>    
+            </button></a>
       </form> 
 </body>
 </html>
